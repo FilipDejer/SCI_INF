@@ -1,7 +1,7 @@
 ﻿#include<iostream>
 #include <algorithm>
 #include<string>
-
+#include"Szyfry.h"
 using namespace std;
 
 
@@ -81,7 +81,7 @@ int main()
 
 	int wybor;
 
-	cout << "1:Szyfr Cezara" << endl << "2:Szyfr przestawieniowy" << endl << "3:Szyfr podstawieniowy " << endl;
+	cout << "1:Szyfr Cezara" << endl << "2:Szyfr przestawieniowy" << endl << "3:Szyfr podstawieniowy " << endl << "4:Klucze RSA" << endl;
 	cin >> wybor;
 
 
@@ -147,6 +147,14 @@ int main()
 
 		cout << napis2 << endl;
 		break;
+
+	}
+	if (wybor == 4) {
+		string tekst;
+		string szyfrowanie;
+		szyfry szyfr;
+		szyfrowanie = szyfr.RSA(tekst);
+
 	}
 	return 0;
 }

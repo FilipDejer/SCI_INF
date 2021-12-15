@@ -1,0 +1,8 @@
+﻿  ConsoleApplication21.cpp
+c:\users\fdejer\source\repos\consoleapplication21\consoleapplication21\consoleapplication21.cpp(42): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Szyfry.cpp
+  Szyfry1.cpp
+  Źródło.cpp
+  Generowanie kodu...
+c:\users\fdejer\source\repos\consoleapplication21\consoleapplication21\szyfry1.cpp(10): warning C4715: "modulo”: niewszystkie ścieżki kodu zwracają wartość
+  ConsoleApplication21.vcxproj -> C:\Users\fdejer\source\repos\ConsoleApplication21\Debug\ConsoleApplication21.exe
